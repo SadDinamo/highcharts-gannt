@@ -1,0 +1,25 @@
+{
+    "name": "saddinamo/highcharts-gannt",
+    "description": "Highcharts-gannt JS widget for Yii2.",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "saddinamo\\highcharts-gannt\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
